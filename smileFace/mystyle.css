@@ -1,0 +1,39 @@
+div#drawingSmiley {
+	width: 100%;
+	padding: 50px;
+}
+.smiley {
+	height: 500px;
+	width: 500px;
+	position: relative;
+	border-radius: 250px;
+}
+.smiley .draw-eye {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	position: absolute;
+	background-color: red;
+}
+.left-eye {
+	top: 100px;
+	left: 70px;
+}
+.right-eye {
+	top: 100px;
+	right: 70px;
+}
+.mouth {
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: #000;
+	position: absolute;
+	height: 90px;
+	width: 200px;
+	left: 150px;
+	top: 300px;
+}
+
+.smiley {
+	background-color: rgb(207, 252, 10);
+}
